@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from './index.style'
-import StylesProvider from "@material-ui/styles/StylesProvider";
+import StylesProvider from '@material-ui/styles/StylesProvider'
 
 const Index = () => {
 	const addUserHandler = e => {
@@ -13,7 +13,9 @@ const Index = () => {
 				<S.Form onSubmit={addUserHandler}>
 					<S.Input label='Username' />
 					<S.Input type='number' label='Age (Years)' />
-					<S.Button variant="contained" color="primary" type='submit'>Add User</S.Button>
+					<S.Button variant='contained' color='primary' type='submit'>
+						Add User
+					</S.Button>
 				</S.Form>
 			</S.Container>
 		</StylesProvider>
